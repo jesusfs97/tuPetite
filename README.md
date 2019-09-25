@@ -24,6 +24,8 @@ git checkout nombre_del_branch
 #shortcut : crear nueva rama y cambiarte a esa misma rama a la vez
 git checkout -b nombre_del_branch
 
+#Para borrar una rama 
+git branch -d nombre_de_la_rama_a_borrar
 #Para inicializar un nuevo repositorio de git
 git init
 #Para agregar cambios en nuestros archivos
