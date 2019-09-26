@@ -1,11 +1,149 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>tuPetite</title>
-	<meta charset='utf-8'>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!--ICONOS-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--SLIDER-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+		<!--ESTILOS-->
+		<link rel="stylesheet" href="css/style.css">
+		<title>Tupetite</title>
+	</head>
 <body>
-	<h1>Primer push</h1>
+	
+
+    <div id="wrapper">
+
+        <!--BANNER-->
+        <div id="banner-wrapper">
+            <header>
+                <div class="header-inner">
+                    <a href="index.html" id="logo">
+                        <img src="img/pics/letra-I.png" alt="IsmaVelez">
+                    </a>
+
+                    <nav>
+                        <a href="#" id="menu-icon">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="index.html" class="current">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="#skills">Habilidades</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">Portafolio</a>
+                            </li>
+                            <li>
+                                <a href="#services">Servicios</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <section class="slide-wrap">
+                <ul class="slider1">
+                    <li><img src="img/Receta-de-Pozole-Rojo-2.jpg" alt="GTR-AMG"></li>
+                    <li><img src="img/Tostadas-3.jpg" alt="Supra"></li>
+                    <li><img src="img/flautas.jpg" alt="Urus"></li>
+                </ul>
+            </section>
+
+        </div>
+	</div>
+
+
+
+
+
+	<footer>
+        <div class="banner-wrapper">
+            <div class="icon-text">
+                <div class="icon-text-icon">
+                    <ul class="footer-nav">
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#skills">Habilidades</a>
+                        </li>
+                        <li>
+                            <a href="#">Portafolio</a>
+                        </li>
+                        <li>
+                            <a href="#">Nuestro equipo</a>
+                        </li>
+                        <li>
+                            <a href="#skills">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="icon-text-text">
+                    <ul class="social">
+                        <li>
+                            <a href="mailto:ismahvelez@gmail.com" target="_blank">
+                                <i class="fa fa-envelope-o"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/isma.hvelez" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ohanagura" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>   
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCAZUEUj-5lPKn-G7p2rGTTg/playlists?view_as=subscriber " target="_blank">
+                                <i class="fa fa-youtube"></i>
+                            </a>   
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>   
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer-second">
+        <p>
+            &copy; <a href="https://www.facebook.com/isma.hvelez" target="_blank">IsmaVelez/Facebook</a>
+        </p>
+    </footer>
+
+	<script>
+
+        $(document).ready(function(){
+            $('.slider1').bxSlider({
+                mode: 'fade'
+            })
+            $('.slider2').bxSlider({
+                mode: 'fade'
+            })
+            $('.slider3').bxSlider({
+                mode: 'fade'
+            })
+        })
+    
+    </script>
 
 </body>
 </html>
