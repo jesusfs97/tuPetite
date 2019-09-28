@@ -6,7 +6,9 @@
 }
 
 body {
-    background: #ecf0f1;
+    background: url(../img/background.jpg);
+    background-position: center center;
+    background-size: 105%;
 }
 
 p {
@@ -56,6 +58,11 @@ img {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 0 3% 0;
+    height: 520px;
+}
+.img-r{
+    height: 520px;
+    width: 100%;
 }
 
 header {
@@ -89,7 +96,6 @@ ul {
 nav ul li {
     font-size: 150%;
     display: inline-block;
-    float: left;
     padding: 10px;
 
 }
@@ -154,7 +160,7 @@ nav ul li a {
 }
 
 footer {
-    background: #2c3e50;
+    background: #2c3e50d1;
     width: 100%;
     overflow: auto;
 }
